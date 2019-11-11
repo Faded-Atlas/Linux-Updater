@@ -14,6 +14,7 @@ if "yes" in a:
         os.system("apt-get update && apt-get full-upgrade -y")
         sleep(2)
         os.system("uname -a")
+        exit()
 
 else:
     exit("This most likely will not work on this device, I apologise")
