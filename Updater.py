@@ -14,6 +14,8 @@ if "yes" in a:
         os.system("apt-get update && apt-get full-upgrade -y")
         sleep(2)
         os.system("uname -a")
+        sleep(2)
+        Print("Update/Upgrade finished!")
         exit()
 
 else:
