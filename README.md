@@ -8,3 +8,5 @@ After a few days of working on my initial repository (the repo was private) for 
   2B) If answered with "no" it says, "This most likely will not work on this device, I apologise"
 3) If answered with yes in the previous question, it will begin to update and upgrade the raspberry pi
 4) Finally, it displays the current linux identification and version number.
+
+*There is a known issue with the updater going on loop, I am working to fix that and implement an exit method.*
