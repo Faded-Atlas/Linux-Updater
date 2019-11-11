@@ -6,10 +6,10 @@ import sys
 if os.geteuid() != 0:
     exit("Error, try running as root")
 
-a = input("Is running on a Raspberry Pi?")
+a = input("Is running on a Linux machine?")
 if "yes" in a:
     while True:
-        print("This will update the raspberry pi")
+        print("This will update your machine.")
         sleep(5)
         os.system("apt-get update && apt-get full-upgrade -y")
         sleep(2)
