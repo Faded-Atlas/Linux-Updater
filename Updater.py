@@ -15,7 +15,7 @@ if "yes" in a:
         sleep(2)
         os.system("uname -a")
         sleep(2)
-        Print("Update/Upgrade finished!")
+        print("Update/Upgrade finished!")
         exit()
 
 else:
