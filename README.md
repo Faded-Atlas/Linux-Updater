@@ -2,7 +2,9 @@
 # Keep in mind that this is only for machines running a distribution of Linux!
 
 Linux Updater
+
 Language: Python
+
 Compatability: Linux machines (Includes ARM devices loaded with linux and Re4son kernels)
 
 After a few days of working on my initial repository (the repo was private) for and updater script, I have completed it. Please be aware that this was my first attempt at learing python through a hands on approach. The script does the following:
